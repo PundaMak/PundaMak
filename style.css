@@ -1,0 +1,52 @@
+#col-12a {
+    background-image: url(images/stationery1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+.directors {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color:lightslategrey;
+    border-color:dimgrey;
+    border-radius: 0%;
+    border-style:solid;
+    
+}
+#about{
+    background-image: url(images/stationery2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.social-icon {
+    display: flex;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 50%;
+    padding-left: 10% ;
+    align-content: center;
+}
+.social-item {
+margin-left: 12%;
+ align-items: center;
+
+}
+.social-item img {
+    filter: grayscale(1);
+    transition: .3s ease filter;
+    
+}
+
+.social-item:hover img {
+    filter: grayscale(0);
+}
+ .flex {
+    flex: 100%;
+  
+   
+}
+p .text {
+    text-align: center;
+    align-content: center;
+}
